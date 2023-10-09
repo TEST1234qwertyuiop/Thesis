@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div><h3>REGISTER</h3>
+  <form class="form">
+    <input name="name" type="text" placeholder="name">
+    <input name="email" type="text" placeholder="email">
+    <input name="password" type="password" placeholder="password">
+
+    <button type="submit">REGISTER</button>
+
+  </form>
+</div>
+
+
+<div>
+  <h3>LOGIN</h3>
+  <form class="login">
+    <label for="inp_email">EMAIL</label>
+    <input type="text" name="email" id="inp_email">
+    <br>
+    <label for="inp_password">PASSWORD</label>
+    <input type="password" name="password" id="inp_password">
+    <br>
+    <button type="submit">LOGIN</button>
+  </form>
+</div>
+<h1>QUESTION</h1>
+<div id="userData">
+    <!-- User data will be displayed here -->
+</div>
+
+<h1>RUBRICS</h1>
+<div id="userrubrics">
+    <!-- User data will be displayed here -->
+</div>
+
+<br>
+<div id="dropdownquestion">
+  <!-- Dropdown will be generated here -->
+</div>
+<br>
+<div id="dropdownrubrics">
+  <!-- Dropdown will be generated here -->
+</div>
+
+<button id="takePictureButton">Take Picture</button>
+<img id="capturedImage" alt="Captured Image" style="display: none;">
+
+</body>
+
+<script script type="module" src="./js/login.js"></script>
+
+</html>
